@@ -12,7 +12,7 @@
         <marquee align="middle"
                  scrollamount="10">{{ scrollText }}</marquee>
       </div>
-      <div class="message2">
+      <div class="message3">
         <div class="pcontainer"
              v-for="(item,index) in 9"
              :key="index">
@@ -208,7 +208,7 @@ export default {
       font-size: -webkit-xxx-large;
       color: #ffffff;
     }
-    .message2 {
+    .message3 {
       width: 100%;
       height: 73%;
       /* background: #12aa45; */
